@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pravasak07-travel-e81f4.web.app/sitemap.xml
