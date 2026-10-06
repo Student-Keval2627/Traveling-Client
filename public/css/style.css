@@ -4509,3 +4509,29 @@ img[data-loading="true"] {
 
 
 }
+/* REMOVE SMALL DOT / NOISE EFFECT */
+.hero-noise {
+  display: none;
+}
+/* REMOVE CUSTOM CURSOR */
+.cursor-dot,
+.cursor-ring {
+  display: none !important;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(4, 7, 5, 0.28),
+      rgba(4, 7, 5, 0.03) 65%
+    ),
+    linear-gradient(
+      to top,
+      rgba(4, 7, 5, 0.78) 0%,
+      rgba(4, 7, 5, 0.20) 45%,
+      rgba(4, 7, 5, 0.06) 100%
+    );
+}
